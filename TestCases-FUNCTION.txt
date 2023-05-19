@@ -1,0 +1,30 @@
+Caso de prueba 1: 
+
+Consultar información de un personaje existente:
+Entrada: get_character_info("rick")
+Respuesta esperada: Una lista con información de todos los personajes con el nombre "rick", que incluya información del personaje, ubicación e información de episodios.
+
+_____________________
+
+Caso de prueba 2: 
+
+Consultar información de un personaje inexistente
+Entrada: get_character_info("PersonajeQueNoExiste")
+Respuesta esperada: El string "El personaje no fue encontrado.".
+
+_____________________
+
+Caso de prueba 3:
+
+ Consultar información de un personaje con nombre vacío
+Entrada: get_character_info("")
+Respuesta esperada: El string "El personaje no fue encontrado.".
+
+
+_____________________
+
+Caso de prueba 4:
+
+ Consultar información de un personaje con caracteres especiales
+Entrada: get_character_info("rick&morty")
+Respuesta esperada: El string "El nombre del personaje no puede contener caracteres especiales."

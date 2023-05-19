@@ -1,0 +1,59 @@
+SUMMARY:
+
+LEVEL TEST PLAN/FEATURE: 
+
+- Probar, verificar y validar las operaciones básicas de la API de Rick and Morty: obtener personajes, obtener ubicaciones y obtener episodios.
+- Este plan se llevará a cabo utilizando un script en Python con la librería requests de manera automatizada.
+- Las verificaciones de los Test Cases se haran con 'unittest'
+- Este plan se realizará para determinar qué pruebas se harán y cómo se realizarán.
+
+_____________________
+
+TARGET:
+
+- Validar las funciones básicas de la API de Rick and Morty, usando un script en Python con la librería 'requests' de forma automatizada.
+
+_____________________
+
+ASSUMPTIONS:
+
+- Suponemos que las solicitudes a la API siempre devolverán resultados en formato JSON.
+- Suponemos que los identificadores para personajes, ubicaciones y episodios son únicos y constantes.
+- Suponemos que las solicitudes a la API con identificadores no válidos devolverán un error.
+
+_____________________
+
+SCOPE:
+
+El alcance se centra en probar y validar  la API de Rick and Morty usando el metodo 'GET'.
+
+_____________________
+
+
+RISK:
+
+- No se puede realizar la prueba debido a problemas de conexión con la API.
+- Cambios inesperados en la API que rompen la compatibilidad con las pruebas existentes.
+
+_____________________
+
+Mitigación:
+
+- Contar con un plan de contingencia en caso de problemas de conectividad.
+- Revisar la documentación de la API para estar al tanto de cualquier cambio.
+
+_____________________
+
+RESOURCES/ITEMS:
+
+- Un script en Python usando las librerías 'requests' y 'unittest' como herramientas principales para probar la API.
+- Documentación de la API de Rick and Morty.
+- Plan de prueba para la planificación de pruebas.
+
+_____________________
+
+
+ENVIRONMENT CONFIGURATION:
+
+- Las pruebas serán ejecutadas en el ambiente de desarrollo local utilizando un script en Python. 
+- Se utilizarán las rutas proporcionadas por la API de Rick and Morty.

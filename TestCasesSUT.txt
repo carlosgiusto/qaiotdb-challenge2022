@@ -1,0 +1,61 @@
+Caso de prueba 1: Obtener todos los personajes
+
+- URL: https://rickandmortyapi.com/api/character
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la lista de todos los personajes.
+
+_____________________
+
+Caso de prueba 2: Obtener un personaje específico
+
+- URL: https://rickandmortyapi.com/api/character/2
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la información del personaje con ID 2.
+
+_____________________
+
+Caso de prueba 3: Obtener varios personajes
+
+- URL: https://rickandmortyapi.com/api/character/1,2,3
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la información de los personajes con IDs 1, 2 y 3.
+
+_____________________
+
+Caso de prueba 4: Filtrar personajes por nombre y estado*
+
+- URL: https://rickandmortyapi.com/api/character/?name=rick&status=alive
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la lista de personajes que se llaman Rick y están vivos.
+
+_____________________
+
+Caso de prueba 5: Obtener todas las ubicaciones
+
+- URL: https://rickandmortyapi.com/api/location
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la lista de todas las ubicaciones.
+
+_____________________
+
+Caso de prueba 6: Obtener una ubicación específica
+
+- URL: https://rickandmortyapi.com/api/location/3
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la información de la ubicación con ID 3.
+
+_____________________
+
+Caso de prueba 7: Obtener varios episodios
+
+- URL: https://rickandmortyapi.com/api/episode/10,28
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la información de los episodios con IDs 10 y 28.
+
+_____________________
+
+Caso de prueba 8: Filtrar episodios por nombre
+
+- URL: https://rickandmortyapi.com/api/episode/?name=Pilot
+- Método: 'GET'
+- Respuesta esperada: Debería recibir una respuesta 200 y la lista de episodios con el nombre "Pilot".
